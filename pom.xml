@@ -9,6 +9,8 @@
 	<description>benworks-java</description>
 	<modules>
 		<module>benworks-java-util</module>
+		<module>benworks-java-lang</module>
+		<module>benworks-java-src</module>
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

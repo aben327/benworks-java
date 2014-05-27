@@ -10,7 +10,7 @@
 	<modules>
 		<module>benworks-java-util</module>
 		<module>benworks-java-lang</module>
-		<module>benworks-java-src</module>
+		
 		<module>benworks-java-jpa</module>
 		<module>benworks-java-nio</module>
 	</modules>

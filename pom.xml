@@ -13,6 +13,7 @@
 		
 		<module>benworks-java-jpa</module>
 		<module>benworks-java-nio</module>
+		<module>benworks-java-jsp</module>
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

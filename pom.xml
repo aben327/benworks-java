@@ -10,10 +10,11 @@
 	<modules>
 		<module>benworks-java-util</module>
 		<module>benworks-java-lang</module>
-		
 		<module>benworks-java-jpa</module>
 		<module>benworks-java-nio</module>
 		<module>benworks-java-jsp</module>
+		<module>benworks-java-algorithms</module>
+		<module>benworks-java-mina</module>
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

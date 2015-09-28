@@ -1,0 +1,143 @@
+SET JAVA_HOME
+
+---------------------------------------------------------------------
+C:\Users\Ben>jps
+6208
+4808 Main
+4812
+7980 Jps
+812 Client
+
+---------------------------------------------------------------------
+C:\Users\Ben>jstack 812
+2015-09-28 03:09:43
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.0-b70 mixed mode):
+
+"DestroyJavaVM" #12 prio=5 os_prio=0 tid=0x00000000025df800 nid=0x225c waiting o
+n condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Thread-1" #11 prio=5 os_prio=0 tid=0x0000000018d18800 nid=0x1d84 waiting for mo
+nitor entry [0x0000000019d7e000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+        at benworks.java.util.concurrent.deadlock.demo1.DeadThread2.fun(DeadThre
+ad2.java:40)
+        - waiting to lock <0x00000000d59c7fb8> (a java.lang.Object)
+        - locked <0x00000000d59c7fc8> (a java.lang.Object)
+        at benworks.java.util.concurrent.deadlock.demo1.DeadThread2.run(DeadThre
+ad2.java:27)
+        at java.lang.Thread.run(Thread.java:744)
+
+"Thread-0" #10 prio=5 os_prio=0 tid=0x0000000018d14000 nid=0x15dc waiting for mo
+nitor entry [0x0000000019c1f000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+        at benworks.java.util.concurrent.deadlock.demo1.DeadThread1.fun(DeadThre
+ad1.java:39)
+        - waiting to lock <0x00000000d59c7fc8> (a java.lang.Object)
+        - locked <0x00000000d59c7fb8> (a java.lang.Object)
+        at benworks.java.util.concurrent.deadlock.demo1.DeadThread1.run(DeadThre
+ad1.java:27)
+        at java.lang.Thread.run(Thread.java:744)
+
+"Service Thread" #9 daemon prio=9 os_prio=0 tid=0x0000000018cf2800 nid=0x798 run
+nable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread2" #8 daemon prio=9 os_prio=2 tid=0x0000000018c71800 nid=0x1c3
+8 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" #7 daemon prio=9 os_prio=2 tid=0x0000000018c70000 nid=0x154
+4 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #6 daemon prio=9 os_prio=2 tid=0x0000000018c6a800 nid=0x1cf
+4 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" #5 daemon prio=5 os_prio=2 tid=0x0000000018c69800 nid=0x21fc w
+aiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=2 tid=0x0000000018c5e000 nid=0x19f0
+ runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=1 tid=0x00000000176d7800 nid=0x227c in Obje
+ct.wait() [0x0000000018c4e000]
+   java.lang.Thread.State: WAITING (on object monitor)
+        at java.lang.Object.wait(Native Method)
+        - waiting on <0x00000000d5a08180> (a java.lang.ref.ReferenceQueue$Lock)
+        at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:142)
+        - locked <0x00000000d5a08180> (a java.lang.ref.ReferenceQueue$Lock)
+        at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:158)
+        at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+"Reference Handler" #2 daemon prio=10 os_prio=2 tid=0x00000000176ca800 nid=0x215
+8 in Object.wait() [0x00000000189ef000]
+   java.lang.Thread.State: WAITING (on object monitor)
+        at java.lang.Object.wait(Native Method)
+        - waiting on <0x00000000d5a00750> (a java.lang.ref.Reference$Lock)
+        at java.lang.Object.wait(Object.java:502)
+        at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:157)
+        - locked <0x00000000d5a00750> (a java.lang.ref.Reference$Lock)
+
+"VM Thread" os_prio=2 tid=0x00000000176c6800 nid=0x560 runnable
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x000000000245c800 nid=0xeac runna
+ble
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x000000000245e000 nid=0x19e4 runn
+able
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x0000000002460800 nid=0x23f0 runn
+able
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x0000000002462800 nid=0x234c runn
+able
+
+"VM Periodic Task Thread" os_prio=2 tid=0x0000000018d06800 nid=0x434 waiting on
+condition
+
+JNI global references: 7
+
+
+Found one Java-level deadlock:
+=============================
+"Thread-1":
+  waiting to lock monitor 0x00000000176d08d8 (object 0x00000000d59c7fb8, a java.
+lang.Object),
+  which is held by "Thread-0"
+"Thread-0":
+  waiting to lock monitor 0x00000000176d30b8 (object 0x00000000d59c7fc8, a java.
+lang.Object),
+  which is held by "Thread-1"
+
+Java stack information for the threads listed above:
+===================================================
+"Thread-1":
+        at benworks.java.util.concurrent.deadlock.demo1.DeadThread2.fun(DeadThre
+ad2.java:40)
+        - waiting to lock <0x00000000d59c7fb8> (a java.lang.Object)
+        - locked <0x00000000d59c7fc8> (a java.lang.Object)
+        at benworks.java.util.concurrent.deadlock.demo1.DeadThread2.run(DeadThre
+ad2.java:27)
+        at java.lang.Thread.run(Thread.java:744)
+"Thread-0":
+        at benworks.java.util.concurrent.deadlock.demo1.DeadThread1.fun(DeadThre
+ad1.java:39)
+        - waiting to lock <0x00000000d59c7fc8> (a java.lang.Object)
+        - locked <0x00000000d59c7fb8> (a java.lang.Object)
+        at benworks.java.util.concurrent.deadlock.demo1.DeadThread1.run(DeadThre
+ad1.java:27)
+        at java.lang.Thread.run(Thread.java:744)
+
+Found 1 deadlock.
+
+
+C:\Users\Ben>
+
+
+
+
+

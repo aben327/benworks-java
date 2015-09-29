@@ -15,17 +15,23 @@
 		<module>benworks-java-jsp</module>
 		<module>benworks-java-algorithms</module>
 		<module>benworks-java-mina</module>
+		<module>benworks-java-netty</module>
 	</modules>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<org.slf4j.version>1.6.1</org.slf4j.version>
 		<org.log4j.version>1.2.16</org.log4j.version>
-		<spring.version>3.1.2.RELEASE</spring.version>
+		<spring.version>4.1.5.RELEASE</spring.version>
 		<hibernate.version>3.6.10.Final</hibernate.version>
-		<common.version>2.0</common.version>
+		<javassist.version>3.18.2-GA</javassist.version>
+		<netty.version>4.0.31.Final</netty.version>
+		<jakarta.version>3.1</jakarta.version>
+		<beanutils-version>1.8.3</beanutils-version>
+		<aspject.version>1.7.4</aspject.version>
+		<common.version>3.5</common.version>
 	</properties>
-
 
 	<dependencies>
 		<!-- Logging 相关的依赖 -->

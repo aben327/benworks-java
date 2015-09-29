@@ -1,5 +1,10 @@
 package benworks.java.lang.threadlocal;
 
+/**
+ * 
+ * @author Ben
+ * @date 2015年9月29日下午7:46:16
+ */
 public class TestNum {
 	// ①通过匿名内部类覆盖ThreadLocal的initialValue()方法，指定初始值
 	private static ThreadLocal<Integer> seqNum = new ThreadLocal<Integer>() {

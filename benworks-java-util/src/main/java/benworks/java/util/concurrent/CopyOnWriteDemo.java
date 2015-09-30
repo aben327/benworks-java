@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class CopyOnWriteDemo {
+
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		String[] ss = { "aa", "bb", "cc" };
 		List list1 = new CopyOnWriteArrayList(Arrays.asList(ss));
@@ -24,12 +26,11 @@ public class CopyOnWriteDemo {
 		try {
 			printAll(itor2);
 		} catch (ConcurrentModificationException e) {
-			System.err
-					.println("Will get here.ConcurrentModificationException occurs!");
+			System.err.println("Will get here.ConcurrentModificationException occurs!");
 		}
 	}
 
-	private static void printAll(Iterator itor) {
+	private static void printAll(Iterator<?> itor) {
 		while (itor.hasNext()) {
 			System.out.println(itor.next());
 		}

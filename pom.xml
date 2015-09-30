@@ -16,6 +16,7 @@
 		<module>benworks-java-algorithms</module>
 		<module>benworks-java-mina</module>
 		<module>benworks-java-netty</module>
+		<module>benworks-java-spring</module>
 	</modules>
 	
 	<properties>

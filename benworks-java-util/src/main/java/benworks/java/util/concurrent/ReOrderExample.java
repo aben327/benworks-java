@@ -1,6 +1,3 @@
-/**
- * 
- */
 package benworks.java.util.concurrent;
 
 /**
@@ -15,6 +12,7 @@ public class ReOrderExample {
 		flag = true;
 	}
 
+	@SuppressWarnings("unused")
 	public void reader() {
 		if (flag) {
 			int i = a * a;

@@ -1,0 +1,31 @@
+package com.company.game.dispatcher.msg;
+
+import com.company.game.dispatcher.annotation.UserMsgAndExecAnnotation;
+
+/**
+ * 加法请求响应消息类 注意msgType是加法请求类的msgType的负数
+ * @author Ben
+ * @date 2015年10月15日上午10:03:50
+ */
+@UserMsgAndExecAnnotation(msgType = -MsgType.ADD)
+public class UserAddResponse extends ResponseMsgBase {
+
+	private double result;
+
+	public UserAddResponse() {
+		super(MsgType.ADD);
+	}
+
+	public double getResult() {
+		return result;
+	}
+
+	public void setResult(double result) {
+		this.result = result;
+	}
+
+	@Override
+	public String toString() {
+		return "result: " + this.result;
+	}
+}

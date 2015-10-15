@@ -1,6 +1,5 @@
 package org.example.hello;
 
-
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
@@ -10,7 +9,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 public class HelloServer {
 
 	private static final int portNumber = 7878;
-	
+
 	public static void main(String[] args) throws InterruptedException {
 		EventLoopGroup bossGroup = new NioEventLoopGroup();
 		EventLoopGroup workerGroup = new NioEventLoopGroup();

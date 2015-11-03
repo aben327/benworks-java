@@ -18,6 +18,7 @@
 		<module>benworks-java-spring</module>
 		<module>benworks-java-hibernate</module>
 		<module>benworks-java-apache</module>
+		<module>benworks-java-www</module>
 	</modules>
 
 	<!-- eclipse中解决update maven之后jre被改成1.5的问题 -->

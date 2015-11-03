@@ -1,6 +1,3 @@
-/**
- * 
- */
 package benworks.java.util.concurrent.hashmap;
 
 import java.util.concurrent.ConcurrentHashMap;

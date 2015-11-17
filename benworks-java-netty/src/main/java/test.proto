@@ -1,0 +1,6 @@
+option java_package = "com.proto";   
+option java_outer_classname = "FirstProtobuf";   
+message TestBuf  {   
+  required int32 ID = 1;   
+  required string Url = 2;   
+}

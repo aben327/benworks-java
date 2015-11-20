@@ -25,7 +25,6 @@
 		<common.version>3.5</common.version>
 	</properties>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>io.netty</groupId>
@@ -47,5 +46,6 @@
 			<artifactId>protobuf-java</artifactId>
 			<version>2.5.0</version>
 		</dependency>
+
 	</dependencies>
 </project>

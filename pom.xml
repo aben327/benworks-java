@@ -20,6 +20,7 @@
 		<module>benworks-java-apache</module>
 		<module>benworks-java-www</module>
 		<module>benworks-java-test</module>
+		<module>benworks-java-redis</module>
 	</modules>
 
 	<!-- eclipse中解决update maven之后jre被改成1.5的问题 -->

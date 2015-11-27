@@ -22,10 +22,9 @@ public class RedisTest {
 
 	@Before
 	public void setUp() {
-		pool = new JedisPool(new JedisPoolConfig(), "192.168.57.11");
-
+		pool = new JedisPool(new JedisPoolConfig(), "192.168.137.129");
 		jedis = pool.getResource();
-//		jedis.auth("");
+		// jedis.auth("");
 	}
 
 	/**

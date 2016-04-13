@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd  
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd  
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd  
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="businessLogic" class="benworks.java.spring.aop.xml.BusinessLogic" />
+	<bean id="businessLogicBean" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces">
+			<value>benworks.java.spring.aop.xml.IBusinessLogic</value>
+		</property>
+		<property name="target">
+			<ref local="businessLogic" />
+		</property>
+		<property name="interceptorNames">
+			<list>
+				<value>theTracingBeforeAdvisor</value>
+				<value>theTracingAfterAdvisor</value>
+				<value>theTracingThrowsAdvisor</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="theTracingBeforeAdvisor"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local="theTracingBeforeAdvice" />
+		</property>
+		<property name="pattern">
+			<value>.*</value>
+		</property>
+	</bean>
+
+	<bean id="theTracingAfterAdvisor"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local="theTracingAfterAdvice" />
+		</property>
+		<property name="pattern">
+			<value>.*time.*</value>
+		</property>
+	</bean>
+
+	<bean id="theTracingThrowsAdvisor"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local="theTracingThrowsAdvice" />
+		</property>
+		<property name="pattern">
+			<value>.*bar.*</value>
+		</property>
+	</bean>
+
+	<bean id="theTracingBeforeAdvice" class="benworks.java.spring.aop.xml.TracingBeforeAdvice" />
+	<bean id="theTracingAfterAdvice" class="benworks.java.spring.aop.xml.TracingAfterAdvice" />
+	<bean id="theTracingThrowsAdvice" class="benworks.java.spring.aop.xml.TracingThrowsAdvice" />
+
+	<!-- ================================================================================ -->
+
+	<bean id="testBean" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces">
+			<value>benworks.java.spring.aop.xml.IBusinessLogic</value>
+		</property>
+		<property name="target">
+			<ref local="businessLogic" />
+		</property>
+		<property name="interceptorNames">
+			<list>
+				<value>myInterceptor</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="myInterceptor" class="benworks.java.spring.aop.xml.MyInterceptor" />
+
+</beans>

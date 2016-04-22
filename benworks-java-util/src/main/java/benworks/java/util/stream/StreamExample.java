@@ -1,12 +1,11 @@
 package benworks.java.util.stream;
 
-import static org.junit.Assert.*;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Random;
 import java.util.function.Supplier;
@@ -41,6 +40,7 @@ public class StreamExample {
 		// 3. Collections
 		List<String> list = Arrays.asList(strArray);
 		stream = list.stream();
+		
 	}
 
 	@Test
@@ -54,7 +54,7 @@ public class StreamExample {
 	@Test
 	public void testTransform() throws Exception {
 		// 中间
-		Stream stream = Stream.of("a", "b", "c");
+//		Stream stream = Stream.of("a", "b", "c");
 
 		// // 1. Array
 		// String[] strArray1 = stream.toArray(String[]::new);
@@ -70,7 +70,7 @@ public class StreamExample {
 		// Stack stack1 = stream.collect(Collectors.toCollection(Stack::new));
 
 		// 3. String
-		String str = stream.collect(Collectors.joining()).toString();
+//		String str = stream.collect(Collectors.joining()).toString();
 	}
 
 	/**
@@ -200,7 +200,7 @@ public class StreamExample {
 		Iterator<?> it = personGroups.entrySet().iterator();
 		while (it.hasNext()) {
 			@SuppressWarnings("unchecked")
-			Map.Entry<Integer, List<Person>> persons = (Map.Entry) it.next();
+			Map.Entry<Integer, List<Person>> persons = (Entry<Integer, List<Person>>) it.next();
 			System.out.println("Age " + persons.getKey() + " = " + persons.getValue().size());
 		}
 	}

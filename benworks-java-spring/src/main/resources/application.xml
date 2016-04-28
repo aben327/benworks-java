@@ -6,4 +6,10 @@ http://github.com/aben328/benworks/people http://github.com/aben328/benworks/peo
 
 	<benworks:people id="aben328" name="Ben.Lau" age="30" />
 
+	<bean id="sayHelloFactoryBean"
+		class="benworks.java.spring.bean.factorybean.SayHelloFactoryBean" />
+
+	<bean id="chinaSayHelloProxy"
+		class="benworks.java.spring.bean.factorybean.ChinaSayHelloProxy" />
+
 </beans>

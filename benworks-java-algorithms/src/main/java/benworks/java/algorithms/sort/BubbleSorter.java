@@ -5,7 +5,7 @@ package benworks.java.algorithms.sort;
  * 这可能是最简单的排序算法了，算法思想是每次从数组末端开始比较相邻两元素，把第i小的冒泡到数组的第i个位置。<br>
  * i从0一直到N-1从而完成排序。（当然也可以从数组开始端开始比较相邻两元素，把第i大的冒泡到数组的第N-i个位置。<br>
  * i从0一直到N-1从而完成排序。)<br>
- * @author Ben
+ * @author Roc
  * @param <E>
  */
 public class BubbleSorter<E extends Comparable<E>> extends Sorter<E> {

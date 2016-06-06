@@ -3,7 +3,7 @@ package benworks.java.lang.innerclass.people;
 /**
  * http://www.cnblogs.com/dolphin0520/p/3811445.html
  * 
- * @author Ben
+ * @author Roc
  * @date 2015年10月12日下午5:06:20
  */
 class People {

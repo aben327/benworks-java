@@ -12,7 +12,7 @@ import org.junit.runners.Suite;
  * 这样如果，我们想让我们的测试类用专门的runner来运行，这时候就可以用@RunWith(Suit.class )标注测试类。其他特殊的runner有： <br>
  * 1. Suite： 字面理解是一个套装，通俗地讲，就是你可以把很多测试类放在一起，然后建一个类，标注为Suite.class， <br>
  * 那么如果执行这个类，就会把所有的测试类一起执行。
- * @author Ben
+ * @author Roc
  * @date 2015年11月20日下午4:18:45
  */
 @RunWith(Suite.class)

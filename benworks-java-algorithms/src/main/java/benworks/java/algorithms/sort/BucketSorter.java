@@ -8,7 +8,7 @@ package benworks.java.algorithms.sort;
  * 比如知道待排序列在[0,M）内，那么可以分配M个桶，第I个桶记录I的出现情况，最后根据每个桶收到的位置信息把数据输出成有序的形式。<br>
  * 这里我们用两个临时性数组，一个用于记录位置信息，一个用于方便输出数据成有序方式，另外我们假设数据落在0到MAX,<br>
  * 如果所给数据不是从0开始，你可以把每个数减去最小的数。
- * @author Ben
+ * @author Roc
  */
 public class BucketSorter {
 

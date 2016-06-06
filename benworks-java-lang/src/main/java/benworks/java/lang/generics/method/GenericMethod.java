@@ -5,7 +5,7 @@ import java.util.Collection;
 
 /**
  * 泛型方法:泛型函数允许类型参数被用来表示方法的一个或多个参数之间的依赖关系，或者参数与其返回值的依赖关系。如果没有这样的依赖关系，不应该使用泛型方法。
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日上午11:34:04
  */
 public class GenericMethod {

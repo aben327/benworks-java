@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * (e).WriteLock支持Condition并且与ReentrantLock语义一致，而ReadLock则不能使用Condition，
  * 否则抛出UnsupportedOperationException异常。
  * 
- * @author Ben
+ * @author Roc
  *
  */
 public class ReadWriteLockTest {

@@ -2,7 +2,7 @@ package benworks.java.lang.generics.cnblogs;
 
 /**
  * 测试实体
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日上午10:10:22
  */
 public class User {

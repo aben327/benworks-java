@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
  * 第二,参数成员只能用基本类型byte,short,char,int,long,float,double,boolean八种基本数据类型<br>
  * 和String,Enum,Class,annotations等数据类型,以及这一些类型的数组.例如,String value();这里的参数成员就为String. <br>
  * 第三,如果只有一个参数成员,最好把参数名称设为"value",后加小括号.例:上面的例子就只有一个参数成员. <br>
- * @author Ben
+ * @author Roc
  * @date 2015年10月19日上午10:02:31
  */
 @Target(ElementType.TYPE)

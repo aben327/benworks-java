@@ -1,7 +1,7 @@
 package benworks.java.util.collection.map;
 /**
  * 
- * @author Ben
+ * @author Roc
  * @date 2016年4月14日下午8:54:44
  */
 public class MutableKey {

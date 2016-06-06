@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 
 /**
  * 动态代理类，实现InvocationHandler接口
- * @author Ben
+ * @author Roc
  */
 class Invoker implements InvocationHandler {
 	AbstractClass ac;

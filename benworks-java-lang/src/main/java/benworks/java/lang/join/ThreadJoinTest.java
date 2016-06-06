@@ -3,7 +3,7 @@ package benworks.java.lang.join;
 /**
  * Java Thread中， join() 方法主要是让调用改方法的thread完成run方法里面的东西后， 在执行join()方法后面的代码。示例：<br>
  * 如果去掉t1.join()这个语句过后， 输出的书序是乱的， 加上这个语句过后， 就会按照顺序输出， 从某种意义上说实现了同步。
- * @author Ben
+ * @author Roc
  * @date 2015年10月19日下午5:06:52
  */
 public class ThreadJoinTest {

@@ -14,7 +14,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.matchers.JUnitMatchers.hasItem;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年11月20日下午4:57:09
  */
 public class HamcrestTest {

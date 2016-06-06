@@ -17,7 +17,7 @@ package benworks.java.util.concurrent.deadlock.demo1;
 
 /**
  * 线程启动调用run(),run()调用fun()方法
- * @author Ben
+ * @author Roc
  * @date 2015年10月2日下午12:04:35
  */
 public class DeadThread2 implements Runnable {

@@ -2,7 +2,7 @@ package benworks.java.lang.innerclass.finall;
 
 /**
  * 
- * @author Ben
+ * @author Roc
  * @date 2015年10月12日下午5:28:30
  */
 public class FinalTest {

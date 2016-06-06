@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * Object中默认的实现是一个浅拷贝,也就是表面拷贝,如果需要实现深层次拷贝 的话,必须对类中可变域生成新的实例.
- * @author Ben
+ * @author Roc
  * @date 2015年11月23日下午3:38:47
  */
 public class DeepCopy implements Cloneable {

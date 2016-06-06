@@ -6,7 +6,7 @@ package benworks.java.util.concurrent.deadlock.demo2;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年10月2日下午4:10:05
  */
 public class DeadLockCar extends Thread {

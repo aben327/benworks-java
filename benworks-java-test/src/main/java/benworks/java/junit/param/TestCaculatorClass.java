@@ -22,7 +22,7 @@ import benworks.java.junit.caculator.CaculatorClassForTest;
  * 以上两个类就是测试了Parameterized runner， 参数会自动匹配。它其实就是，看我们传入几种case， 也就是List.size()，然后，把类里面的方法，循环重复执行size()数目。 2.
  * Parameterized：根据所设计的参数来执行测试。假设我们要测试某一个方法，它有两个参数，每个参数需要设计不同值，那么我们最开始就是需要为每个参数设计一个测试方法，这样就很麻烦，10种case就得10个方法，
  * 但是有了Parameterized runner，我们可以设计一个方法，多种参数来执行test case。
- * @author Ben
+ * @author Roc
  * @date 2015年11月20日下午4:21:55
  */
 @RunWith(Parameterized.class)

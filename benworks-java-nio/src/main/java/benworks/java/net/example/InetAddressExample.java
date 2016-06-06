@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 import java.util.Enumeration;
 
 /**
- * @author Ben
+ * @author Roc
  */
 public class InetAddressExample {
 	public static void main(String[] args) {

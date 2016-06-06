@@ -2,7 +2,7 @@ package benworks.java.lang.generics.covariant;
 
 /**
  * 协变式返回值(covariant returns) 现在，假定你的一个第三方客户代码：
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日下午4:46:53
  */
 public class Baz extends Bar {

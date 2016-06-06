@@ -32,7 +32,7 @@ class TestRunnable implements Runnable {
  * (1) thread.setDaemon(true)必须在thread.start()之前设置，否则会跑出一个IllegalThreadStateException异常。<br>
  * (2) 在Daemon线程中产生的新线程也是Daemon的。<br>
  * (3) 不要认为所有的应用都可以分配给Daemon来进行服务，比如读写操作或者计算逻辑。<br>
- * @author Ben
+ * @author Roc
  * @date 2016年4月18日下午9:28:06
  */
 public class TestDemo2 {

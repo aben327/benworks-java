@@ -3,7 +3,7 @@ package benworks.java.lang.character;
 /**
  * 只有使用引号包含文本的方式创建的String对象之间使用“+”连接产生的新对 象才会被加入字符串池中。<br>
  * 对于所有包含new方式新建对象（包括null）的“+”连接表达式，它所产生的新对 象都不会被加入字符串池中
- * @author Ben
+ * @author Roc
  * @date 2016年4月18日下午4:02:37
  */
 public class StringPoolTest {

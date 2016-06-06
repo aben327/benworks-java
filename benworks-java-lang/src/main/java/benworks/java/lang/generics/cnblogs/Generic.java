@@ -2,7 +2,7 @@ package benworks.java.lang.generics.cnblogs;
 
 /**
  * 泛型演示类
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日上午10:11:17
  */
 public class Generic {

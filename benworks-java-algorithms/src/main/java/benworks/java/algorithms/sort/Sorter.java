@@ -2,7 +2,7 @@ package benworks.java.algorithms.sort;
 
 /**
  * 为了便于管理，先引入个基础类：
- * @author Ben
+ * @author Roc
  * @param <E>
  */
 public abstract class Sorter<E extends Comparable<E>> {

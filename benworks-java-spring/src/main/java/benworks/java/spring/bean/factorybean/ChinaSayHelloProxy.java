@@ -3,7 +3,7 @@ package benworks.java.spring.bean.factorybean;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2016年4月26日下午4:34:33
  */
 public class ChinaSayHelloProxy {

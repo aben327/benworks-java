@@ -3,7 +3,7 @@ package benworks.java.lang.operators.xor;
 /**
  * 异或，英文为exclusive OR，或缩写成xor <br>
  * 异或运算符是用符号“^”表示的，其运算规律是： 两个操作数的位中，相同则结果为0，不同则结果为1。
- * @author Ben
+ * @author Roc
  * @date 2015年10月20日上午11:46:09
  */
 public class XorOperatorTest1 {

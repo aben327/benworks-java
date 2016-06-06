@@ -2,7 +2,7 @@ package benworks.java.lang.proxy.invoke.demo2;
 
 /**
  * 如果不用InvocationHandler接口实现代理的话，我们写代码是这样的：
- * @author Ben
+ * @author Roc
  * @date 2015年11月26日上午10:41:54
  */
 public class GreetImpl implements Greet {

@@ -4,7 +4,7 @@ import io.netty.channel.Channel;
 
 /**
  * 执行业务逻辑的基类 实现Runnable接口
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:06:12
  */
 public class BusinessLogicExecutorBase implements Runnable {

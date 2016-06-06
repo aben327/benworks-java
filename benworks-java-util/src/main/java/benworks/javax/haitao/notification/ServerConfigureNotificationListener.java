@@ -6,7 +6,7 @@ import javax.management.NotificationListener;
 /**
  * Server Configure Notification Listener
  * @author haitao.tu
- * @author Ben
+ * @author Roc
  * @date 2015年9月29日上午3:05:18
  */
 public class ServerConfigureNotificationListener implements NotificationListener {

@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 
- * @author Ben
+ * @author Roc
  * @Date 2015年11月2日上午12:10:58
  */
 public class Resource4 {

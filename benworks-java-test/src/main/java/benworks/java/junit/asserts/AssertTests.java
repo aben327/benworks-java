@@ -21,7 +21,7 @@ import org.junit.Test;
  * assertNotNull()，assertTtrue()，assertFalse()，assertThat()等，其中assertThat用的是match的形式。<br>
  * 因此，Junit提供很多中Match，其中CoreMatchers是其中一个比较完善的实现类。具体有上面方法可以查阅CoreMatchers类。<br>
  * 
- * @author Ben
+ * @author Roc
  * @date 2015年11月20日下午3:56:18
  */
 public class AssertTests {

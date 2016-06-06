@@ -10,7 +10,7 @@ import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
  * 和BeanDefinitionParser的实现类， Spring提供了默认实现类NamespaceHandlerSupport<br>
  * 和AbstractSingleBeanDefinitionParser，<br>
  * 简单的方式就是去继承这两个类。本例就是采取这种方式：<br>
- * @author Ben
+ * @author Roc
  * @date 2015年9月30日上午11:08:00
  */
 public class PeopleNamespaceHandler extends NamespaceHandlerSupport {

@@ -2,7 +2,7 @@ package benworks.java.lang.number;
 
 /**
  * java函数参数中用参数值带回结果（类似传址） http://blog.csdn.net/yasi_xi/article/details/22854313
- * @author Ben
+ * @author Roc
  * @date 2015年11月9日下午3:53:00
  */
 public class BooleanParamTest {

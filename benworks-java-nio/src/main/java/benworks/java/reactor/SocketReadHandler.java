@@ -7,7 +7,7 @@ import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年11月12日下午4:53:40
  */
 public class SocketReadHandler implements Runnable {

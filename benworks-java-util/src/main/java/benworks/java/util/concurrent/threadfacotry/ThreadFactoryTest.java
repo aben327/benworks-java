@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * ThreadFactory是一种在软件开发过程中封装对象创建过程的面向对象的设计模式。常见的有如下两种使用场景： 1异常捕获,2设置线程池中线程属性
- * @author Ben
+ * @author Roc
  * @date 2015年11月11日上午11:54:16
  */
 public class ThreadFactoryTest {
@@ -48,7 +48,7 @@ class LoggerThreadFactory implements ThreadFactory {
 
 /**
  * 2设置线程池中线程属性
- * @author Ben
+ * @author Roc
  * @date 2015年11月11日上午11:57:04
  */
 class DaemonThreadFactory implements ThreadFactory {

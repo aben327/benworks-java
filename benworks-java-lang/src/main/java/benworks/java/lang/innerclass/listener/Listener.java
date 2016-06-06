@@ -7,7 +7,7 @@ package benworks.java.lang.innerclass.listener;
  * 大部分匿名内部类用于接口回调。匿名内部类在编译的时候由系统自动起名为Outter$1
  * .class。一般来说，匿名内部类用于继承其他类或是实现接口，并不需要增加额外的方法，只是对继承方法的实现或是重写。
  * 
- * @author Ben
+ * @author Roc
  * @date 2015年10月12日下午5:14:20
  */
 public class Listener {

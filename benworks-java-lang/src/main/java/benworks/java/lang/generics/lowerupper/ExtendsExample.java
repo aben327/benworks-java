@@ -8,7 +8,7 @@ import java.util.List;
  * extends 可用于的返回类型限定，不能用于参数类型限定。<br>
  * super 可用于参数类型限定，不能用于返回类型限定。<br>
  * 带有super超类型限定的通配符可以向泛型对易用写入，带有extends子类型限定的通配符可以向泛型对象读取。<br>
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日下午6:46:37
  */
 class Food {

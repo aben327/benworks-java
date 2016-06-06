@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 /**
  * peek 对每个元素执行操作并返回一个新的 Stream
- * @author Ben
+ * @author Roc
  * @date 2016年4月19日下午5:30:43
  */
 public class PeekDemo {

@@ -3,7 +3,7 @@ package benworks.java.lang.generics.widgets;
 import java.util.Collection;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日下午2:40:48
  */
 public class Inventory {

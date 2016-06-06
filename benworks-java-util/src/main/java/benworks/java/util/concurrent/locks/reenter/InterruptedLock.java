@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 可中断申请 如果使用synchronized申请一个内置锁时锁被其他线程持有, 那么当前线程将被挂起, 等待锁重新可用, 而且等待期间无法中断. 而显式锁提供了可中断申请:
- * @author Ben
+ * @author Roc
  * @date 2015年11月9日下午6:33:09
  */
 public class InterruptedLock extends Thread {

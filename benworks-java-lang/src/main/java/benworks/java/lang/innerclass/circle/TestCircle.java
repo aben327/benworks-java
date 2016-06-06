@@ -3,7 +3,7 @@ package benworks.java.lang.innerclass.circle;
 /**
  * 成员内部类是依附外部类而存在的，也就是说，如果要创建成员内部类的对象，前提是必须存在一个外部类的对象。
  * 
- * @author Ben
+ * @author Roc
  * @date 2015年10月12日下午4:54:54
  */
 public class TestCircle {

@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * http://kentkwan.iteye.com/blog/739514 <br>
- * @author Ben
+ * @author Roc
  * @date 2015年11月23日下午5:24:18
  */
 public class User implements Cloneable {

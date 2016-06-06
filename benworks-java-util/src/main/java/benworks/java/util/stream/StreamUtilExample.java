@@ -11,7 +11,7 @@ import java.util.UUID;
  * 完结操作会返回一个某种类型的值，而中间操作会返回流对象本身，并且你可以通过多次调用同一个流操作方法来将操作结果串起来。<br>
  * Stream是在一个源的基础上创建出来的，例如java.util.Collection中的list或者set（map不能作为Stream的源）。 <br>
  * Stream操作往往可以通过顺序或者并行两种方式来执行。
- * @author Ben
+ * @author Roc
  * @date 2016年4月19日下午8:59:46
  */
 public class StreamUtilExample {

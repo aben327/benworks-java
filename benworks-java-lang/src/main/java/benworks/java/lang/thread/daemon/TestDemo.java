@@ -1,7 +1,7 @@
 package benworks.java.lang.thread.daemon;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2016年4月18日下午9:32:29
  */
 public class TestDemo {

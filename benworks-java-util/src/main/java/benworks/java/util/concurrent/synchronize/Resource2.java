@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 演示了三个线程（包括main线程）试图进入某个类的三个不同的方法的同步块中，这些同步块处在不同的方法中，并且是同步到三个不同的对象（synchronized
  * (this)，synchronized(syncObject1)，synchronized (syncObject2)），所以对它们的方法中的临界资源访问是独立的。
- * @author Ben
+ * @author Roc
  * @Date 2015年11月2日上午12:08:31
  */
 public class Resource2 {

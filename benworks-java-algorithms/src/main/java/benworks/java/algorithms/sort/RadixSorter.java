@@ -14,7 +14,7 @@ import java.util.Arrays;
  * 基数排序借助桶式排序，每次按第N位排序时，采用桶式排序。对于如何安排每次落入同一个桶中的数据有两种安排方法：<br>
  * 1）顺序存储：每次使用桶式排序，放入r个桶中，，相同时增加计数。<br>
  * 2）链式存储：每个桶通过一个静态队列来跟踪。<br>
- * @author Ben
+ * @author Roc
  */
 public class RadixSorter {
 

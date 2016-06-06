@@ -6,7 +6,7 @@ import com.proto.FirstProtobuf.TestBuf;
 
 /**
  * http://blog.csdn.net/qyf_5445/article/details/43793067
- * @author Ben
+ * @author Roc
  * @date 2015年11月17日下午8:16:18
  */
 public class TestProtoBuf {

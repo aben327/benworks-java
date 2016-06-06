@@ -5,7 +5,7 @@ package benworks.java.lang.generics.method;
  * 可以这样理解，因为泛型方法编译后类型擦除，如果不指定类型参数，则泛型方法此时相当于是<br>
  * public void go(Object t)。而普通的方法接收参数为String类型，因此以String类型的实参调用函数，<br>
  * 肯定会调用形参为String的普通方法了。如果是以Object类型的实参调用函数，则会调用泛型方法。
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日下午5:07:22
  */
 public class FuncGenric {

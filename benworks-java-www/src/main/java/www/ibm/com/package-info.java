@@ -1,7 +1,7 @@
 /**
  * http://www.ibm.com/developerworks/cn/java/
  * 
- * @author Ben
+ * @author Roc
  *
  */
 package www.ibm.com;

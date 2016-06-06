@@ -5,7 +5,7 @@ import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年10月23日上午10:55:10
  */
 public class LargeMappedFiles {

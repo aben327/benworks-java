@@ -4,7 +4,7 @@ import com.company.game.dispatcher.annotation.UserMsgAndExecAnnotation;
 
 /**
  * 加法请求消息类
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:03:42
  */
 @UserMsgAndExecAnnotation(msgType = MsgType.ADD)

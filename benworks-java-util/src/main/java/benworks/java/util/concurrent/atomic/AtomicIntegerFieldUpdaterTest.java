@@ -3,7 +3,7 @@ package benworks.java.util.concurrent.atomic;
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年11月10日下午5:50:16
  */
 class Container {

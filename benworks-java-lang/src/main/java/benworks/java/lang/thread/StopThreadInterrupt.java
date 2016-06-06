@@ -4,7 +4,7 @@ package benworks.java.lang.thread;
  * 使用interrupt方法终止线程<br>
  * （1）线程处于阻塞状态，如使用了sleep方法。<br>
  * （2）使用while（！isInterrupted（））{……}来判断线程是否被中断。<br>
- * @author Ben
+ * @author Roc
  * @date 2016年4月18日下午5:39:52
  */
 public class StopThreadInterrupt extends Thread {

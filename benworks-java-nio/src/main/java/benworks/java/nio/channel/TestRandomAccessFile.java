@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年10月23日上午10:49:32
  */
 public class TestRandomAccessFile {

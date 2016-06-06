@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * CountDownLatch，一个同步辅助类，在完成一组正在其他线程中执行的操作之前，它允许一个或多个线程一直等待。
- * @author Ben
+ * @author Roc
  * @date 2015年11月12日上午10:01:51
  */
 public class CountDownLatchDemo {

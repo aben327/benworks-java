@@ -1,7 +1,7 @@
 package benworks.java.lang.abstracts.clazz;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年10月22日上午11:11:16
  */
 public abstract class TestAbstractClass implements TestInterface {

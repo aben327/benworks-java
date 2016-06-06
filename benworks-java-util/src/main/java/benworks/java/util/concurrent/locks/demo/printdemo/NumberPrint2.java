@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 总结: 对比解法一和解法二, 显然解法二是更好的解决方案. 解法一的问题在于无法进行精确唤醒, 比如线程1执行完打印任务并调用pn.notifyAll()方法后, 3个线程将再次竞争锁, 而不是精确唤醒线程2.
  * 虽然线程2最终将赢得锁, 下一次的打印任务也肯定会由线程2执行, 但是竞争的持续时间是不可预知的, 只能看线程2的人品. 最糟糕的情形可以是: 线程3竞争到了锁, 紧接着wait. 接下来线程1也竞争到了锁, 然后线程1也wait.
  * 此时就再也没有其他线程跟线程2竞争了, 线程2终于艰难的赢得了锁...
- * @author Ben
+ * @author Roc
  * @date 2015年11月9日下午6:54:22
  */
 public class NumberPrint2 implements Runnable {

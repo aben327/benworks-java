@@ -1,5 +1,5 @@
 /**
- * @author Ben
+ * @author Roc
  * @date 2016年4月29日下午2:30:02
  */
 package benworks.java.util._volatile.count;
@@ -8,7 +8,7 @@ import org.apache.http.annotation.NotThreadSafe;
 
 /**
  * 对于volatile修饰的变量，jvm虚拟机只是保证从主内存加载到线程工作内存的值是最新的
- * @author Ben
+ * @author Roc
  * @date 2016年4月29日下午2:37:46
  */
 @NotThreadSafe 

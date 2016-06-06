@@ -16,7 +16,7 @@ import com.company.game.dispatcher.codec.MsgEncoder;
 
 /**
  * 客户端启动类
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:07:04
  */
 public class ClientBootstrapStarter {

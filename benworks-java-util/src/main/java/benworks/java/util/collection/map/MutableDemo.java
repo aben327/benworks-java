@@ -3,7 +3,7 @@ package benworks.java.util.collection.map;
 /**
  * 危险！在HashMap中将可变对象用作Key <br>
  * http://www.importnew.com/13384.html
- * @author Ben
+ * @author Roc
  * @date 2016年4月14日下午8:56:01
  */
 public class MutableDemo {

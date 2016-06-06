@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.channels.SocketChannel;
 /**
  * 
- * @author Ben
+ * @author Roc
  * @date 2015年11月12日下午4:53:18
  */
 public class Acceptor implements Runnable {

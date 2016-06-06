@@ -5,7 +5,7 @@ import org.apache.http.annotation.NotThreadSafe;
 /**
  * 这种方式限制了范围的状态变量，因此将 lower 和 upper 字段定义为 volatile 类型不能够充分实现类的线程安全；从而仍然需要使用同步 例如，如果初始状态是(0, 5)，同一时间内，线程 A 调用 setLower(4)
  * 并且线程 B 调用 setUpper(3)，显然这两个操作交叉存入的值是不符合条件的，那么两个线程都会通过用于保护不变式的检查，使得最后的范围值是 (4, 3) —— 一个无效值。
- * @author Ben
+ * @author Roc
  * @date 2016年4月29日下午2:54:54
  */
 @NotThreadSafe

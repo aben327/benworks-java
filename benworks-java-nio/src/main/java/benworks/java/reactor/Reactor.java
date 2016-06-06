@@ -15,7 +15,7 @@ import java.util.Set;
  * 举个例子：餐厅服务问题 <br>
  * 传统线程池做法：来一个客人(请求)去一个服务员(线程) <br>
  * 反应器模式做法：当客人点菜的时候，服务员就可以去招呼其他客人了，等客人点好了菜，直接招呼一声“服务员” <br>
- * @author Ben
+ * @author Roc
  * @date 2015年11月12日下午4:51:25
  */
 public class Reactor implements Runnable {

@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 危险！在HashMap中将可变对象用作Key <br>
  * http://www.importnew.com/13384.html
- * @author Ben
+ * @author Roc
  * @date 2016年4月14日下午9:00:26
  */
 public class MutableDemo1 {

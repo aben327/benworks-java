@@ -7,7 +7,7 @@ package benworks.java.util._volatile;
  * 并且状态标志并不依赖于程序内任何其他状态，因此此处非常适合使用 volatile。 <br>
  * 这种类型的状态标记的一个公共特性是：通常只有一种状态转换；shutdownRequested 标志从 false 转换为 true，然后程序停止。 <br>
  * 这种模式可以扩展到来回转换的状态标志，但是只有在转换周期不被察觉的情况下才能扩展（从 false 到 true，再转换到 false）。此外，还需要某些原子状态转换机制，例如原子变量。
- * @author Ben
+ * @author Roc
  * @date 2016年4月29日下午3:02:48
  */
 public class CorrectShutdown {

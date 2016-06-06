@@ -3,7 +3,7 @@ package benworks.java.util.concurrent.atomic;
 import java.util.concurrent.atomic.AtomicLongArray;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年11月16日上午10:53:08
  */
 public class AtomicLongArrayTest {

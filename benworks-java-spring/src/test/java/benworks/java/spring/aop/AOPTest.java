@@ -7,7 +7,7 @@ import benworks.java.spring.aop.xml.BusinessLogicException;
 import benworks.java.spring.aop.xml.IBusinessLogic;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2016年4月5日上午10:32:38
  */
 public class AOPTest {

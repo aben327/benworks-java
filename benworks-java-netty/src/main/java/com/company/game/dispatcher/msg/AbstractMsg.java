@@ -2,7 +2,7 @@ package com.company.game.dispatcher.msg;
 
 /**
  * 抽象消息类
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:03:12
  */
 public abstract class AbstractMsg {

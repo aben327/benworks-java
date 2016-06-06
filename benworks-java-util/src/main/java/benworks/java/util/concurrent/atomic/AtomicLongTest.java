@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * AtomicLong是作用是对长整形进行原子操作。<br>
  * 在32位操作系统中，64位的long 和 double 变量由于会被JVM当作两个分离的32位来进行操作，<br>
  * 所以不具有原子性。而使用AtomicLong能让long的操作保持原子型。
- * @author Ben
+ * @author Roc
  * @date 2015年11月16日上午10:49:26
  */
 public class AtomicLongTest {

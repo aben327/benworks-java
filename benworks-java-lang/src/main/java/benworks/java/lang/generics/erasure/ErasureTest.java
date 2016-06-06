@@ -7,7 +7,7 @@ import java.util.List;
  * 擦除和翻译(Erasure and Translation)
  * 当我们从list中获取一个元素的时候，并且试图通过转换为String而把它当作一个string，我们得到一个ClassCastException。完全一样的事情发生在使用泛型的代码上。
  * 这样的原因是，泛型是通过java编译器的称为擦除(erasure)的前端处理来实现的。你可以（基本上就是）把它认为是一个从源码到源码的转换，它把泛型版本的loophole()转换成非泛型版本。
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日下午2:54:29
  */
 public class ErasureTest {

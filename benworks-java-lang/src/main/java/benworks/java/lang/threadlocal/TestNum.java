@@ -4,7 +4,7 @@ package benworks.java.lang.threadlocal;
  * 在ThreadLocal类中有一个Map，用于存储每一个线程的变量副本，Map中元素的键为线程对象，而值对应线程的变量副本。<br>
  * 我们自己就可以提供一个简单的实现版本： 考察输出的结果信息，我们发现每个线程所产生的序号虽然都共享同一个TestNum实例，但它们并没有发生相互干扰的情况，<br>
  * 而是各自产生独立的序列号，这是因为我们通过ThreadLocal为每一个线程提供了单独的副本。
- * @author Ben
+ * @author Roc
  * @date 2015年9月29日下午7:46:16
  */
 public class TestNum {

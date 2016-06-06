@@ -1,7 +1,7 @@
 package benworks.java.lang.proxy;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年9月29日上午6:44:17
  */
 public class RealSubject implements Subject {

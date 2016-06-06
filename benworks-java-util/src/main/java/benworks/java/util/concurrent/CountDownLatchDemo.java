@@ -13,7 +13,7 @@ import java.util.concurrent.CountDownLatch;
  * 构造方法参数指定了计数的次数<br>
  * countDown方法，当前线程调用此方法，则计数减一<br>
  * awaint方法，调用此方法会一直阻塞当前线程，直到计时器的值为0<br>
- * @author Ben
+ * @author Roc
  * @date 2014年11月27日
  */
 public class CountDownLatchDemo {

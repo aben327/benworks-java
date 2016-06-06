@@ -1,7 +1,7 @@
 package benworks.java.lang.jdk8;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2016年4月18日下午10:03:12
  */
 public class InterfaceDefaultMethodTest {

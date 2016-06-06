@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * @author Ben
+ * @author Roc
  *
  */
 public class TestFutureTask {

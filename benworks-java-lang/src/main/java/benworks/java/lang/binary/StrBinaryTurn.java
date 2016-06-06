@@ -1,7 +1,7 @@
 package benworks.java.lang.binary;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2016年4月26日上午11:30:56
  */
 public abstract class StrBinaryTurn {

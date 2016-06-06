@@ -2,7 +2,7 @@ package benworks.java.lang.proxy.invoke.demo2;
 
 /**
  * 实现一个简单的代理类（通过聚合）
- * @author Ben
+ * @author Roc
  * @date 2015年11月26日上午10:42:47
  */
 public class SimpleProxy implements Greet {

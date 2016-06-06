@@ -1,7 +1,7 @@
 package benworks.javax.haitao.mxbean;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年9月29日上午3:28:17
  */
 public class Server implements ServerMBean {

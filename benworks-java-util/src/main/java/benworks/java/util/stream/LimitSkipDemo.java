@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 /**
  * limit 返回 Stream 的前面 n 个元素；skip 则是扔掉前 n 个元素（它是由一个叫 subStream 的方法改名而来）。
- * @author Ben
+ * @author Roc
  * @date 2016年4月19日下午5:58:10
  */
 public class LimitSkipDemo {

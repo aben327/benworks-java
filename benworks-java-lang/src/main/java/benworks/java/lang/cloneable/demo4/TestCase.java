@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * http://kentkwan.iteye.com/blog/739514 <br>
  * 一下子就把我们的对象克隆了一份，执行结果也符合我们的预期，u1和u3的地址不同但是内容相同。
- * @author Ben
+ * @author Roc
  * @date 2015年11月23日下午5:21:51
  */
 public class TestCase {

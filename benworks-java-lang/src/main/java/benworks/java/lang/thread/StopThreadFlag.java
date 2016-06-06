@@ -2,7 +2,7 @@ package benworks.java.lang.thread;
 
 /**
  * 使用退出标志终止线程
- * @author Ben
+ * @author Roc
  * @date 2016年4月18日下午5:35:56
  */
 public class StopThreadFlag extends Thread {

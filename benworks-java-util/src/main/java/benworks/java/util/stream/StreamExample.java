@@ -16,7 +16,7 @@ import java.util.stream.Stream;
 import org.junit.Test;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年11月24日下午2:59:39
  */
 public class StreamExample {

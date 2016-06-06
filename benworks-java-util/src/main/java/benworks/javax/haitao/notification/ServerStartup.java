@@ -7,7 +7,7 @@ import javax.management.ObjectName;
 
 /**
  * JMX通知机制是观察者模式的衍生产品
- * @author Ben
+ * @author Roc
  * @date 2015年9月29日上午3:07:35
  */
 public class ServerStartup {

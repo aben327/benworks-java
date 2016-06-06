@@ -1,7 +1,7 @@
 package benworks.java.util.concurrent;
 
 /**
- * @author Ben
+ * @author Roc
  */
 public class ReOrderExample {
 	int a = 0;

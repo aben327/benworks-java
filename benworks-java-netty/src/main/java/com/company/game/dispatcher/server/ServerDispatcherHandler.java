@@ -7,7 +7,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 /**
  * 服务端handler
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:04:22
  */
 public class ServerDispatcherHandler extends SimpleChannelInboundHandler<Object> {

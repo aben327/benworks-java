@@ -7,7 +7,7 @@ import com.company.game.dispatcher.msg.UserMultiResponse;
 
 /**
  * 具体的业务逻辑 实现乘法
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:06:34
  */
 @UserMsgAndExecAnnotation(msgType = MsgType.MULTI)

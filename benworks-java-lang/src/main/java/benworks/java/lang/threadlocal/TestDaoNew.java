@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年9月29日下午7:47:50
  */
 public class TestDaoNew {

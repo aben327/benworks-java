@@ -17,7 +17,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * ExecutorCompletionService的实现相当直观
  * 。它在构造函数中创建一个BlockingQueue，用它去保持完成的结果。计算完成时会调用FutureTask中的done方法。当提交一个任务后，首先把这个任务包装为一个QueueingFuture
  * ，它是FutureTask的一个子类，然后覆写done方法，将结果置入BlockingQueue中，take和poll方法委托给了BlockingQueue，它会在结果不可用时阻塞。
- * @author Ben
+ * @author Roc
  * @date 2015年10月19日上午11:33:28
  */
 public class CompletionServiceTest {

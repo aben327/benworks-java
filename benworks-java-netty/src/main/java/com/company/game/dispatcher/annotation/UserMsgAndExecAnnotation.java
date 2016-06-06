@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * 修饰消息类和业务逻辑执行类 msgType指定对应的类型，从1开始计数
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:07:11
  */
 @Target(ElementType.TYPE)

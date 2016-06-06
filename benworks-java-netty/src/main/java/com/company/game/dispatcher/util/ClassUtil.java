@@ -19,7 +19,7 @@ import com.company.game.dispatcher.annotation.UserMsgAndExecAnnotation;
 
 /**
  * 处理反射相关的方法
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:04:30
  */
 public class ClassUtil {

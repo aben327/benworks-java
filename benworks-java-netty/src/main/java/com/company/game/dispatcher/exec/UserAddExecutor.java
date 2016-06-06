@@ -7,7 +7,7 @@ import com.company.game.dispatcher.msg.UserAddResponse;
 
 /**
  * 具体的业务逻辑 实现加法
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:06:29
  */
 @UserMsgAndExecAnnotation(msgType = MsgType.ADD)

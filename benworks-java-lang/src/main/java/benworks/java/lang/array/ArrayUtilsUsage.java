@@ -6,7 +6,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
 /**
  * Apache Commons Lang ArrayUtils 学习
- * @author Ben
+ * @author Roc
  * @date 2016年3月31日下午4:31:05
  */
 public class ArrayUtilsUsage {

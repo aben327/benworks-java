@@ -2,7 +2,7 @@ package benworks.java.lang.operators.or;
 
 /**
  * 或运算符用符号“|”表示，其运算规律如下： 两个位只要有一个为1，那么结果就是1，否则就为0
- * @author Ben
+ * @author Roc
  * @date 2015年10月20日上午11:37:36
  */
 public class OrOperatorTest1 {

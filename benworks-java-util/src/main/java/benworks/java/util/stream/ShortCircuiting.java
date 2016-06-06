@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import org.junit.Test;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2016年4月19日下午8:51:09
  */
 public class ShortCircuiting {

@@ -1,7 +1,7 @@
 package benworks.java.lang.cloneable.demo3;
 /**
  * 
- * @author Ben
+ * @author Roc
  * @date 2015年11月23日下午4:09:14
  */
 public class Account implements Cloneable {

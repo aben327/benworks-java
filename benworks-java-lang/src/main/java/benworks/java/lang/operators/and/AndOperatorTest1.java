@@ -12,7 +12,7 @@ package benworks.java.lang.operators.and;
  * 数字就无所谓16进制、还是10进制了。转成String才会有差别。除非你是想运算16进制的字符转成的数字。<br>
  * 1．与运算符 与运算符用符号“&”表示，其使用规律如下： 两个操作数中位都为1，结果才为1，否则结果为0，例如下面的程序段。<br>
  * 2.十进制转二进制，除2取余倒序
- * @author Ben
+ * @author Roc
  * @date 2015年10月20日上午11:36:07
  */
 public class AndOperatorTest1 {

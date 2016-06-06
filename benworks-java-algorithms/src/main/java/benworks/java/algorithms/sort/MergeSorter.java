@@ -5,7 +5,7 @@ import java.lang.reflect.Array;
 /**
  * 六 归并排序 算法思想是每次把待排序列分成两部分，分别对这两部分递归地用归并排序，完成后把这两个子部分合并成一个 序列。 <br>
  * 归并排序借助一个全局性临时数组来方便对子序列的归并，该算法核心在于归并。
- * @author Ben
+ * @author Roc
  */
 public class MergeSorter<E extends Comparable<E>> extends Sorter<E> {
 

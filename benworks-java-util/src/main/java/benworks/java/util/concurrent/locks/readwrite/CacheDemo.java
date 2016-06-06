@@ -15,7 +15,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * 没有其他线程的读锁<br>
  * 没有其他线程的写锁<br>
  * 
- * @author Ben
+ * @author Roc
  *
  */
 public class CacheDemo {

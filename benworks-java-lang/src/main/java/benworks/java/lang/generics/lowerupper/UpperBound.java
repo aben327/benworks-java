@@ -9,7 +9,7 @@ import java.util.List;
  * 如果你想从一个数据类型里获取数据，使用 ? extends 通配符<br>
  * 如果你想把对象写入一个数据结构里，使用 ? super 通配符<br>
  * 如果你既想存，又想取，那就别用通配符。<br>
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日下午6:26:59
  */
 public class UpperBound {

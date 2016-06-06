@@ -3,7 +3,7 @@ package benworks.java.spring.bean.factorybean;
 import org.springframework.beans.factory.FactoryBean;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2016年4月26日下午4:25:30
  */
 public class SayHelloFactoryBean implements FactoryBean<ChinaSayHello> {

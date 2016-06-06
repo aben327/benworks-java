@@ -10,7 +10,7 @@ package benworks.java.algorithms.sort;
  * 逐渐的减小“增量“最终到减小到1。<br>
  * 一直较好的增量序列是2^k-1,2^(k-1)-1,.....7,3,1,这样可使Shell排序时间复杂度达到O(N^1.5)<br>
  * 所以我在实现Shell排序的时候采用该增量序列<br>
- * @author Ben
+ * @author Roc
  */
 public class ShellSorter<E extends Comparable<E>> extends Sorter<E> {
 

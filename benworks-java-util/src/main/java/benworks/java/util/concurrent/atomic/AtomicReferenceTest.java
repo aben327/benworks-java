@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * 即修改之后的volatile的值。<br>
  * (02) 通过CAS设置value。这保证了：当某线程池通过CAS函数(如compareAndSet函数)设置value时，<br>
  * 它的操作是原子的，即线程在操作value时不会被中断。<br>
- * @author Ben
+ * @author Roc
  * @date 2015年11月16日上午10:39:18
  */
 public class AtomicReferenceTest {

@@ -2,7 +2,7 @@ package benworks.java.spring.aop.xml;
 
 /**
  * 业务逻辑的实现BusinessLogic
- * @author Ben
+ * @author Roc
  * @date 2016年4月5日上午10:17:24
  */
 public class BusinessLogic implements IBusinessLogic {

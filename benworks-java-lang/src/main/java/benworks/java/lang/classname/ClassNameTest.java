@@ -1,7 +1,7 @@
 package benworks.java.lang.classname;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日下午3:10:19
  */
 public class ClassNameTest {

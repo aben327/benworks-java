@@ -9,7 +9,7 @@ package benworks.java.algorithms.sort;
  * 建堆，以及删除堆定节点使用shiftDwon,而在插入节点时一般结合两种操作一起使用。<br>
  * 堆排序借助最大值堆来实现，第i次从堆顶移除最大值放到数组的倒数第i个位置，然后shiftDown到倒数第i+1个位置,<br>
  * 一共执行N此调整，即完成排序。 显然，堆排序也是一种选择性的排序，每次选择第i大的元素。<br>
- * @author Ben
+ * @author Roc
  */
 public class HeapSorter<E extends Comparable<E>> extends Sorter<E> {
 

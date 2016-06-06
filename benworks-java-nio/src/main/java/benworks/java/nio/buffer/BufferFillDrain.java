@@ -4,7 +4,7 @@ import java.nio.CharBuffer;
 
 /**
  * Java nio入门教程详解(四)
- * @author Ben
+ * @author Roc
  * @date 2015年10月22日下午5:23:31
  */
 public class BufferFillDrain {

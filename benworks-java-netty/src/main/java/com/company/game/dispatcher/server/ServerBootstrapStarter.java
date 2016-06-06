@@ -15,7 +15,7 @@ import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 
 /**
  * 服务端启动类
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:04:16
  */
 public class ServerBootstrapStarter {

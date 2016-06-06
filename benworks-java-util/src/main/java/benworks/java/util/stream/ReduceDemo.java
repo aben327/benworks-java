@@ -4,7 +4,7 @@ import java.util.stream.Stream;
 
 /**
  * 这个方法的主要作用是把 Stream 元素组合起来。它提供一个起始值（种子），然后依照运算规则（BinaryOperator）， 和前面 Stream 的第一个、第二个、第 n 个元素组合。
- * @author Ben
+ * @author Roc
  * @date 2016年4月19日下午5:35:53
  */
 public class ReduceDemo {

@@ -17,7 +17,7 @@ package benworks.java.util.concurrent.deadlock.demo1;
 
 /**
  * 客户端
- * @author Ben
+ * @author Roc
  * @date 2015年10月2日下午12:05:23
  */
 public class Client {

@@ -7,7 +7,7 @@ import org.w3c.dom.Element;
 
 /**
  * BeanDefinitionParser完成具体的解析工作
- * @author Ben
+ * @author Roc
  * @date 2015年9月30日上午11:11:14
  */
 public class PeopleBeanDefinitionParser extends AbstractSingleBeanDefinitionParser {

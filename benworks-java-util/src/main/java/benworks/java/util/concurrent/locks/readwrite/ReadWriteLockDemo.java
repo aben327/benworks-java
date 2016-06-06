@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * 当需要对集合同时进行写入和读取操作时，如果多线程同时操作会出现异常，那么现在利用ReadWriteLock显示锁，可以在写入量比较小，<br>
  * 读取量比较大的场景中 ，方便的实现上述功能。
  * 
- * @author ben
+ * @author Roc
  *
  */
 @SuppressWarnings("all")

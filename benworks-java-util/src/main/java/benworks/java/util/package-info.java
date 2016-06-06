@@ -2,6 +2,6 @@
  * 
  */
 /**
- * @author Ben
+ * @author Roc
  */
 package benworks.java.util;

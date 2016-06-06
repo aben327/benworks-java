@@ -2,7 +2,7 @@ package benworks.java.lang.initial;
 
 /**
  * 这就说明静态变量和静态初始化块是依照他们在类中的定义顺序进行初始化的。同样，变量和初 始化块也遵循这个规律。
- * @author Ben
+ * @author Roc
  * @date 2016年4月18日下午3:47:11
  */
 public class TestOrder {

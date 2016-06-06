@@ -17,7 +17,7 @@ package benworks.java.util.concurrent.deadlock.demo1;
 
 /**
  * 该类存放两个资源等待被使用
- * @author Ben
+ * @author Roc
  * @date 2015年10月2日下午12:02:53
  */
 public class Resource {

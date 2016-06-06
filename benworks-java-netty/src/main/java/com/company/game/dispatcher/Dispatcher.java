@@ -11,7 +11,7 @@ import com.company.game.dispatcher.util.ClassUtil;
 
 /**
  * 抽象了分发器 多线程执行 某个消息对象msgObject指定某个业务逻辑对象executor submit到线程池中
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:04:40
  */
 public class Dispatcher {

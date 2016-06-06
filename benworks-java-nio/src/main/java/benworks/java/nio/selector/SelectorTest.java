@@ -3,7 +3,7 @@ package benworks.java.nio.selector;
 import java.nio.channels.Selector;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年11月16日上午11:57:11
  */
 public class SelectorTest {

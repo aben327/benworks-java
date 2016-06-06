@@ -8,7 +8,7 @@ package benworks.java.algorithms.sort;
  * 3）根据枢纽元素最后确定的位置，把数组分成三部分，左边的，右边的，枢纽元素自己，对左边的，<br>
  * 右边的分别递归调用快速排序算法即可。<br>
  * 快速排序的核心在于分割算法，也可以说是最有技巧的部分。<br>
- * @author Ben
+ * @author Roc
  * @param <E>
  */
 public class QuickSorter<E extends Comparable<E>> extends Sorter<E> {

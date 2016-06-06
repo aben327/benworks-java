@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * 常见进制转换
- * @author Ben
+ * @author Roc
  */
 public class BinaryTest {
 

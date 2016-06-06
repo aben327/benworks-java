@@ -2,7 +2,7 @@ package com.company.game.dispatcher.msg;
 
 /**
  * 消息类型
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:03:17
  */
 public class MsgType {

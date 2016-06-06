@@ -3,7 +3,7 @@ package benworks.java.util.concurrent.hashset;
 import org.junit.Test;
 
 /**
- * @author Ben
+ * @author Roc
  *
  * @date 2015年11月3日下午5:54:10
  */

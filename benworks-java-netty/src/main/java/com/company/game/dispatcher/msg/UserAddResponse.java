@@ -4,7 +4,7 @@ import com.company.game.dispatcher.annotation.UserMsgAndExecAnnotation;
 
 /**
  * 加法请求响应消息类 注意msgType是加法请求类的msgType的负数
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:03:50
  */
 @UserMsgAndExecAnnotation(msgType = -MsgType.ADD)

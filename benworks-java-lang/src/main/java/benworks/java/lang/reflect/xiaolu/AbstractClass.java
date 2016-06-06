@@ -8,7 +8,7 @@ package benworks.java.lang.reflect.xiaolu;
  * InvocationHandler 并实现它的invoke方法，然后再用Proxy的工厂方法newProxyInstance（）创建一个代理对象，<br>
  * 这个对象同样可以实现对具体类的代理功能。 而且想代理哪个具体类，只要给Handler（以下代码中的Invoker）的构造器传入这个具体对象的实例就可以了。<br>
  * 感觉是不是自己为该具体类造了一个代理类呢？呵呵~ //接口类
- * @author Ben
+ * @author Roc
  */
 public interface AbstractClass {
 

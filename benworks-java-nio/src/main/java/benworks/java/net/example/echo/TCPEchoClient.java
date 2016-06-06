@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 
 /**
  * Tcp客户端
- * @author Ben
+ * @author Roc
  * @date 2015年10月2日上午10:21:49
  */
 public class TCPEchoClient {

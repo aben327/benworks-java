@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * Lock对象锁
  * 除了使用synchronized外，还可以使用Lock对象来创建临界区。Resource3.java的演示效果同Resource1.java；<br>
  * Resource4.java的演示效果同Resource2.java。
- * @author Ben
+ * @author Roc
  * @Date 2015年11月2日上午12:09:21
  */
 public class Resource3 {

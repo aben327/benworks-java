@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
  * synchronized同步块  同步到单一对象锁 当使用同步块时，如果方法下的同步块都同步到一个对象上的锁，则所有的任务（线程）只能互斥的进入这些同步块。
  * Resource1.java演示了三个线程（包括main线程）试图进入某个类的三个不同的方法的同步块中，虽然这些同步块处在不同的方法中，但由于是同步到同一个对象（当前对象 synchronized
  * (this)），所以对它们的方法依然是互斥的。
- * @author Ben
+ * @author Roc
  * @Date 2015年11月2日上午12:01:22
  */
 public class Resource1 {

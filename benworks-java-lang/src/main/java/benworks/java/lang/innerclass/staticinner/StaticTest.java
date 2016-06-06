@@ -6,7 +6,7 @@ package benworks.java.lang.innerclass.staticinner;
  * ，这点很好理解，因为在没有外部类的对象的情况下，可以创建静态内部类的对象，如果允许访问外部类的非static成员就会产生矛盾
  * ，因为外部类的非static成员必须依附于具体的对象。
  * 
- * @author Ben
+ * @author Roc
  * @date 2015年10月12日下午5:19:31
  */
 public class StaticTest {

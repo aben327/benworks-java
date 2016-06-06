@@ -2,7 +2,7 @@ package benworks.java.lang.generics.covariant;
 
 /**
  * 协变式返回值(covariant returns)
- * @author Ben
+ * @author Roc
  * @date 2015年10月21日下午4:44:04
  */
 public class Foo {

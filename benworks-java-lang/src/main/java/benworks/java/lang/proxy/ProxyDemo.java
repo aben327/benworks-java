@@ -9,7 +9,7 @@ import java.lang.reflect.Proxy;
 import java.util.Collection;
 
 /**
- * @author Ben
+ * @author Roc
  * @date 2015年9月29日上午7:51:02
  */
 public class ProxyDemo {

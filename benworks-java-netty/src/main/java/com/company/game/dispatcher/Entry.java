@@ -12,7 +12,7 @@ import com.company.game.dispatcher.util.ClassUtil;
 
 /**
  * 程序入口 客户端与服务端均在此启动 使用使用-h选项查看 java -jar xxx.jar -h
- * @author Ben
+ * @author Roc
  * @date 2015年10月15日上午10:04:55
  */
 public class Entry {

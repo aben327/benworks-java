@@ -8,7 +8,7 @@ import java.util.TreeMap;
 
 /**
  * 排序的Map,只支持Map<Integer,Integer>
- * @author Ben
+ * @author Roc
  * @date 2014年11月27日
  */
 public class SortMapTest {
